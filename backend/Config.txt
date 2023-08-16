@@ -1,0 +1,9 @@
+{
+    "pool" : {
+        "user" : "postgres",
+        "host" : "localhost",
+        "database" : "lab4",
+        "password" : "kamal123",
+        "port" : 5432
+  }
+}

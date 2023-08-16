@@ -1,0 +1,70 @@
+/*FOR instructor PAGE*/
+.pageInstructor {
+    /* background-color: rgb(231, 231, 231); */
+    min-height: 100%;
+    background-image: url("../../Assets/bg4.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    /* display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center; */
+  }
+  
+  .tableButton{
+    border: none;
+    margin-top: 5px;
+    width: auto;
+    max-width: 200px;
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    color: rgba(255, 255, 255, 0.589);
+    font-size: 15px;
+    font-weight: 700;
+    transition: all 0.5s;
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .tableButton:hover{
+    background-color: rgba(255, 255, 255, 0.5);
+    color: rgba(0, 0, 0, 0.589);
+  }
+  
+
+
+
+
+  .insTable{
+    border-collapse: collapse;
+    width: 800px;
+    margin-top: 10px;
+  }
+  
+  .insTable td
+  {
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    padding: 8px;
+    color: rgba(0, 0, 0, 0.6);
+  }
+  .insTable th 
+  {
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    padding: 8px;
+    background-color: rgba(0, 0, 0, 0.25);
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.582);
+  }
+  
+  .insTable tr:nth-child(even) {
+    background-color: rgba(255, 255, 255, 0.295);
+  }
+  .insTable tr:hover {
+    background-color: rgba(245, 222, 179, 0.527);
+  }

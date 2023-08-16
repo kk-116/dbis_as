@@ -1,0 +1,20 @@
+/*FOR Course PAGE*/
+.pageCourse {
+    /* background-color: rgb(231, 231, 231); */
+    min-height: 100%;
+    background-image: url("../../Assets/bg4.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    /* display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center; */
+  }
+
+  .promo a{
+    text-decoration: none;
+    
+  }
